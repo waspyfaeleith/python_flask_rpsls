@@ -1,0 +1,2 @@
+FLASK_APP=rpsls.py
+FLASK_ENV=development

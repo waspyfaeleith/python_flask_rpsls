@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<h2>And the result is:</h2>
+
+<p>User played: {{user}}</p>
+<p>Computer played: {{computer}}</p>
+
+{% if winning_choice != None %}
+<p>{{winner}} wins with {{winning_choice}}</p>
+{% else %}
+<p>It's a draw!</p>
+{% endif %}
+
+{% endblock %}
